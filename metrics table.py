@@ -40,7 +40,7 @@ def calculate_metrics(true_values, predictions_dict):
 predictions_dict = {
     'Constant': constant_prediction,
     'Exponential Smoothing': exp_predictions,
-    'Gradient Boosting': gb_predictions
+    'Boosting': gb_predictions
 }
 
 metrics_df = calculate_metrics(true_values, predictions_dict)
